@@ -11,7 +11,7 @@ action "Prepare modules" {
 action "Update project" {
   uses = "retgits/actions/sh@master"
   needs = "Prepare modules"
-  args = ["mkdir function", "rm *_test.go", "mv *.go function/", "mv go.* function/", "mv vendor function/", "git clone https://github.com/openfaas-incubator/golang-http-template templates", "rm -rf templates/template/golang-http/function ", "cp -R templates/template/golang-http/ .", "rm -rf templates", "pwd && ls -alh"]
+  args = ["mkdir function", "rm *_test.go", "mv *.go function/", "mv go.* function/", "mv vendor function/", "git clone https://github.com/openfaas-incubator/golang-http-template templates", "rm -rf templates/template/golang-http/function ", "mv templates/golang-http/* .", "rm -rf templates", "pwd && ls -alh"]
 }
 
 action "Docker Login" {
