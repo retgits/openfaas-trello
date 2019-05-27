@@ -1,0 +1,6 @@
+github.com/adlio/trello v0.0.0-20181009211147-e4cc07c871d0 h1:mI+BqWX9HJIRw68D6yUBunwIHs6oJkqqwFKEogkHKkk=
+github.com/adlio/trello v0.0.0-20181009211147-e4cc07c871d0/go.mod h1:VjzhFGdnEJGih1AsIWi/yU6y01yZh0DuEWCNAyOJ1WE=
+github.com/openfaas-incubator/go-function-sdk v0.0.0-20181217173454-cac4b8744921 h1:IGP0tlTdv6r/zy3Kw61EhiXao61krCUs5KRHWSzCdxM=
+github.com/openfaas-incubator/go-function-sdk v0.0.0-20181217173454-cac4b8744921/go.mod h1:F37Kp+hwdHP+o3UKjkGzikQg4weKiMvcegT9vCQjvjE=
+github.com/pkg/errors v0.8.1 h1:iURUrRGxPUNPdy5/HRSm+Yj6okJ6UtLINN0Q9M4+h3I=
+github.com/pkg/errors v0.8.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
